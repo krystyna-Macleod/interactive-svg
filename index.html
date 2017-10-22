@@ -10,6 +10,10 @@
 
   <svg id="bear" width="256" height="256" viewBox="0 0 256 256">
 
+    <g id="face">
+      <circle class="face" cx="130" cy="132" r="107" />
+    </g>
+
     <g id="left-ear">
       <circle class="left-ear-pink" cx="50" cy="60" r="20" />
       <circle class="left-ear" cx="45" cy="50" r="35" />
@@ -20,20 +24,20 @@
       <circle class="right-ear" cx="210" cy="50" r="35" />
     </g>
 
-    <g id="face">
-      <circle class="face" cx="130" cy="132" r="107" />
+    <g id="right-eye">
+      <circle class="right-eye" cx="100" cy="100" r="10" />
+      <circle class="right-eye-back" cx="200" cy="80" r="60" />
     </g>
 
-    <g>
-      <circle id="left-eye" cx="100" cy="100" r="25" />
+    <g id="left-eye">
+      <circle class="left-eye" cx="100" cy="100" r="10" />
+      <circle class="left-eye-back" cx="50" cy="80" r="60" />
     </g>
-    <g>
-      <circle id="right-eye" cx="100" cy="100" r="25" />
-    </g>
-    <g class="mouth">
-      <circle id="nose" cx="128" cy="130" r="15" />
-      <path id="mouth" d="M100,160 Q128,190 156,160" />
-      <circle id="mouth-back" cx="128" cy="172" r="40" />
+
+    <g id="mouth">
+      <circle id="nose" cx="128" cy="135" r="12" />
+      <path class="mouth" d="M100,160 Q128,190 156,160" />
+      <circle class="mouth-back" cx="128" cy="172" r="40" />
     </g>
   </svg>
 

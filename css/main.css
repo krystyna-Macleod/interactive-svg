@@ -1,4 +1,5 @@
 #face {
+  overflow: hidden;
   fill: #673200;
 }
 
@@ -18,18 +19,18 @@
   fill: #673200;
 }
 
-#left-eye {
-
+.left-eye-back {
+  fill: #c65b00;
 }
 
-.mouth {
-  overflow: hidden;
+.right-eye-back {
+  fill: #c65b00;
 }
 
 #nose {
   fill: #ffaaca;
 }
 
-#mouth-back {
+.mouth-back {
   fill: #c65b00;
 }
