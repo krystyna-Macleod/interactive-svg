@@ -2,6 +2,26 @@
   fill: #673200;
 }
 
+#left-ear {
+  fill: #673200;
+}
+
+#ear-pink {
+  fill: #673200;
+}
+
 #left-eye {
 
+}
+
+.mouth {
+  overflow: hidden;
+}
+
+#nose {
+  fill: #FFAACA;
+}
+
+#mouth-back {
+  fill: #C65B00;
 }

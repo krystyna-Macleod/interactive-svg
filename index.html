@@ -8,10 +8,27 @@
 </head>
 <body>
 
-  <svg width="256" height="256" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">>
+  <svg id="bear" width="256" height="256" viewBox="0 0 256 256">
 
-    <circle id="face" cx="100" cy="100" r="100" />
-    <circle id="left-eye" cx="100" cy="100" r="25" />
+    <circle id="face" cx="120" cy="150" r="100" />
+    <g>
+      <circle id="left-ear" cx="60" cy="70" r="50" />
+      <circle id="ear-pink" cx="100" cy="100" r="20" />
+    </g>
+    <g>
+      <circle id="right-ear" cx="200" cy="70" r="50" />
+    </g>
+    <g>
+      <circle id="left-eye" cx="100" cy="100" r="25" />
+    </g>
+    <g>
+      <circle id="right-eye" cx="100" cy="100" r="25" />
+    </g>
+    <g class="mouth">
+      <circle id="nose" cx="100" cy="100" r="10" />
+      <path id="mouth" d="M100,160 Q128,190 156,160" />
+      <circle id="mouth-back" cx="100" cy="15" r="40" />
+    </g>
   </svg>
 
 </body>
