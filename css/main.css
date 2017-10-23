@@ -1,36 +1,3 @@
 #face {
-  overflow: hidden;
-  fill: #673200;
-}
 
-.left-ear-pink {
-  fill: #ffaaca;
-}
-
-.left-ear {
-  fill: #673200;
-}
-
-.right-ear-pink {
-  fill: #ffaaca;
-}
-
-.right-ear {
-  fill: #673200;
-}
-
-.left-eye-back {
-  fill: #c65b00;
-}
-
-.right-eye-back {
-  fill: #c65b00;
-}
-
-#nose {
-  fill: #ffaaca;
-}
-
-.mouth-back {
-  fill: #c65b00;
 }
