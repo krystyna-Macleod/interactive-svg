@@ -1,11 +1,17 @@
 #right-ear {
-  animation: move 2s linear;
-  animation-delay: 2s;
+    animation-delay: 2s;
 }
 
 #left-ear {
+  animation-delay: 1s;
+}
+
+#right-ear:hover {
   animation: move 2s linear;
-  animation-delay: 2s;
+}
+
+#left-ear:hover {
+  animation: move 2s linear;
 }
 
 @keyframes move {
