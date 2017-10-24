@@ -1,51 +1,22 @@
-#right-ear {
-  animation-delay: 2s;
+#bear:hover #left-ear,
+#bear:hover #right-ear {
+  transform: translateY(-10px);
+  transform-origin: center center;
+  transition: all .5s linear;
 }
 
-#left-ear {
-  animation-delay: 1s;
-}
-
-#right-ear:hover {
-  animation: move 2s linear;
-}
-
-#left-ear:hover {
-  animation: move 2s linear;
-}
-
-@keyframes move {
-
-  0% {
-    transform: translateY(0);
-  }
-
-  50% {
-    transform: translateY(-.5em);
-  }
-
-  100% {
-    transform: translateY(0);
-  }
-
-}
-
-#right-eye, #left-eye {
-  animation: eyes 2s linear;
-  transition: all .25s linear;
+#left-eye,
+#right-eye {
+  animation: eyes 3s linear;
 }
 
 @keyframes eyes {
 
   0% {
-    transform: translateX(0);
-  }
-
-  50% {
-    transform: translateX(.5em);
+    transform: translateX(10px);
   }
 
   100% {
-    transform: translateX(0);
+    transform: translateX(-10px);
   }
 }
